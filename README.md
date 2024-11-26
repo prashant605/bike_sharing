@@ -59,19 +59,21 @@ A multiple linear regression model has been built to understand the impact of va
 - **weathersit:** light rain and mist tends to reduce demand
 - **windspeed:** higher windspeed tends to reduce demand
 - **season:** demand is higher in winter and summer
+- **yr:** demand is higher in 2019 as compared to 2018
 
 **Adjusted R-squared value of 0.839, F-statistic 178.3, p-values of all variables lower than 0.05 and VIF of all variables much lower than 10** clearly indicaate a good overall fit of model and its stability. All the assumptions of linear model are validated
 
 
 ## Technologies Used
 
-- **Python**: The primary programming language used for data analysis and model development.
-- **Pandas (version 1.3.3)**: For data manipulation and preparation, including handling missing values, feature engineering, and transforming the dataset.
-- **NumPy (version 1.21.2)**: For numerical computations, used primarily for array operations and statistical calculations.
-- **Matplotlib (version 3.4.3)**: For data visualization, used to create plots such as histograms, boxplots, and bar charts.
-- **Seaborn (version 0.11.2)**: High-level visualization library based on Matplotlib, used for statistical graphics like heatmaps and count plots.
-- **statsmodels (version 0.14.4)**: For statistical modeling and hypothesis testing, providing classes and functions for estimating and testing different statistical models.
-- **Jupyter Notebook**: For writing and organizing the code, visualizations, and documentation interactively.
+- **Python:** The primary programming language used for data analysis and model development.
+- **Pandas (version 1.3.3):** For data manipulation and preparation, including handling missing values, feature engineering, and transforming the dataset.
+- **NumPy (version 1.21.2):** For numerical computations, used primarily for array operations and statistical calculations.
+- **Matplotlib (version 3.4.3):** For data visualization, used to create plots such as histograms, boxplots, and bar charts.
+- **Seaborn (version 0.11.2):** High-level visualization library based on Matplotlib, used for statistical graphics like heatmaps and count plots.
+- **statsmodels (version 0.14.4):** For statistical modeling and hypothesis testing, providing classes and functions for estimating and testing different statistical models.
+- **scikit-learn (version 0.24.2):** For machine learning, including tasks such as regression, classification, clustering, and model evaluation, with tools for preprocessing, pipeline creation, and hyperparameter tuning.
+- **Jupyter Notebook:** For writing and organizing the code, visualizations, and documentation interactively.
 
 These technologies helped efficiently process, visualize, and analyze the data, providing key insights into loan default patterns.
 
