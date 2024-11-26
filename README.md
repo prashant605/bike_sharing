@@ -60,7 +60,7 @@ A multiple linear regression model has been built to understand the impact of va
 - **windspeed:** higher windspeed tends to reduce demand
 - **season:** demand is higher in winter and summer
 
-**Adjusted R-squared value of 0.839, F-statistic 178.3, p-values of all variables lower than 0.05 and VIF of all variables much lower than 10*** clearly indicaate a good overall fit of model and its stability. All the assumptions of linear model are validated
+**Adjusted R-squared value of 0.839, F-statistic 178.3, p-values of all variables lower than 0.05 and VIF of all variables much lower than 10** clearly indicaate a good overall fit of model and its stability. All the assumptions of linear model are validated
 
 
 ## Technologies Used
